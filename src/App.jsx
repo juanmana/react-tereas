@@ -10,10 +10,10 @@ function App() {
   const [userName, setUserName] = useState("Juan");
 
   const [taskItems, setTask] = useState([
-    { name: "Task 1", done: false },
-    { name: "Task 2", done: false },
-    { name: "Task 3", done: true },
-    { name: "Task 4", done: false }
+    { name: "Tarea 1", done: false },
+    { name: "Tarea 2", done: false },
+    { name: "Tarea 3", done: true },
+    { name: "Tarea 4", done: false }
   ]);
 
   const [showCompleted, setShowCompleted] = useState(true);
@@ -28,10 +28,10 @@ function App() {
         }else{
           setUserName('Juan example')
           setTask([
-            { name: "Task 1 example", done: false },
-            { name: "Task 2 example", done: false },
-            { name: "Task 3 example", done: true },
-            { name: "Task 4 example", done: false }
+            { name: "Tarea 1", done: false },
+            { name: "Tarea 2", done: false },
+            { name: "Tarea 3", done: true },
+            { name: "Tarea 4", done: false }
 
 
           ])
